@@ -734,6 +734,11 @@ h3 {
   background-color: rgb(39, 39, 39);
 }
 
+.contact-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 .precio {
   font-size: 25px;
   color: orangered;
