@@ -11,7 +11,7 @@ const selectCheck = /^(?!\s*$).+/; // Matches any non-empty value
 window.addEventListener("load", cleanForm);
 
 inputs.forEach((input) => {
-  input.addEventListener("input", validateInput);
+  input.addEventListener("change", validateInput);
 });
 
 function validateInput(event) {
